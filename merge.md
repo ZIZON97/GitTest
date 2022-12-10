@@ -28,6 +28,7 @@ conflict 발생한 파일을 확인해보면 conflict 발생한 부분에 대해
 		```
 + squash
 	- squash 의 경우 rebase 와 다르게 신규 브랜치에 있던 커밋을 한꺼번에 뭉쳐서 하나의 commit 으로 보이게 된다.
+	- squash 를 할 경우 log 를 확인해보면 브랜치가 끊긴 것처럼 보임. 보기 싫으면 지우자.
 	- ```Shell
 		git merge --squash 신규 브랜치명
 		```
