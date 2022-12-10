@@ -21,7 +21,9 @@ conflict 발생한 파일을 확인해보면 conflict 발생한 부분에 대해
 	- 신규 브랜치의 commit 들을 기존 브랜치의 제일 마지막 commit 뒤로 붙여서 fast-forward 로 merge 하는 방식
 	- rebase 를 이용하게 되면 신규 브랜치에 있던 commit들 전부 그대로 따라온다.
 	- ```Shell
+		git switch 신규 브랜치명
 		git rebase 기준 브랜치명
+		git switch 기준 브랜치명
 		git merge 신규 브랜치명
 		```
 + squash
