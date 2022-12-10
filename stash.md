@@ -17,3 +17,7 @@ stash{0}에 있는 번호 입력하여 하나씩 제거 가능.
 git stash drop 번호
 git stash clear
 ```
+
+## conflict 발생 안해 ??
+이것도 당연히 발생할 수 있지.  
+merge 해서 발생하는 conflict 랑 똑같이 확인해서 수정하면 됨.
