@@ -7,12 +7,12 @@
 git branch 새로운브랜치명
 ```
 
-## branch 변경
+### branch 변경
 ```Shell
 git switch 새로운브랜치명
 ```
 
-## branch 삭제
+### branch 삭제
 merge 완료된 브랜치는 -d 옵션, 
 merge 안한 브랜치는 -D 옵션
 ```Shell
